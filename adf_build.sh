@@ -102,7 +102,7 @@ do
 		done
 		echo -e "</task-flow-descriptor>\n" >>$TASKFLOW_REGISTRY
 	fi
-done∂
+done
 echo "</task-flow-registry>" >>$TASKFLOW_REGISTRY
 
 if [ -f "$ADF_VIEW/public_html/WEB-INF/weblogic.xml" ]; then
